@@ -13,5 +13,5 @@ make
 ## Usage
 
 ```bash
-sg-tar --query "content:New[A-Z][a-z]+Client\(" --output sourcegraph.tar.gz
+sg-tar --query "content:New[A-Z][a-z]+Client\(" --output sourcegraph.tar.gz --compress
 ```
