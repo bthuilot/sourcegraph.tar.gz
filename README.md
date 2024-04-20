@@ -13,5 +13,7 @@ make
 ## Usage
 
 ```bash
+export SOURCEGRAPH_TOKEN="your-sourcegraph-token"
+
 sg-tar --query "content:New[A-Z][a-z]+Client\(" --output sourcegraph.tar.gz --compress
 ```
